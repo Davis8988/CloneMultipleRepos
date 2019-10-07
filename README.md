@@ -1,8 +1,9 @@
 # CloneMultipleRepos
-<br>
-This script clones multiple repos from a gitlab url in parallel. <br>
-<br>
-## Usage <br>
+
+This script clones multiple repos from a gitlab url in parallel. 
+
+## Usage 
+
 CloneMultipleRepos.py -a [server] -d [dest dir path] {flags} <br>
  -a, --gitlab_addr=    : Gitlab-Server name or ip. Valid formats: {http://ipOrName, https://ipOrName, ip, name} <br>
  -t, --gitlab_token=   : Gitlab-Access token. Needed for private repos. <br>

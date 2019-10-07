@@ -14,8 +14,10 @@ CloneMultipleRepos.py -a [server] -d [dest dir path] {flags} <br>
  -s, --silent          : Silent mode - no user interaction. <br>
 <br>
  -h, --help            : print this help message and exit <br>
-<br>
-Run Examples<br>
+
+
+## Examples
+
   Help:           CloneMultipleRepos.py -h <br>
   With token:     CloneMultipleRepos.py -a gitlab -t myAccessToken -d C:\myrepos --repos_list=repo1,repo2,repo3 <br>
   Without token:  CloneMultipleRepos.py -a http://gitlab -d C:\myrepos --repos_list=repo1,repo2,repo3 <br>

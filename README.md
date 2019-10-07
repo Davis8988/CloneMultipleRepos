@@ -18,8 +18,8 @@ CloneMultipleRepos.py -a [server] -d [dest dir path] {flags} <br>
 
 ## Examples
 
-  1. CloneMultipleRepos.py -h <br>
-  2. CloneMultipleRepos.py -a gitlab -t myAccessToken -d C:\myrepos --repos_list=repo1,repo2,repo3 <br>
-  3. CloneMultipleRepos.py -a http://gitlab -d C:\myrepos --repos_list=repo1,repo2,repo3 <br>
-  4. CloneMultipleRepos.py -a gitlab:80 -t myAccessToken -d C:\myrepos --repos_list=repo1,repo2,repo3 --silent <br>
-  5. CloneMultipleRepos.py -a gitlab -t myAccessToken -d C:\myrepos --repos_list=repo1,repo2,repo3 --silent <br>
+1. CloneMultipleRepos.py -h 
+2. CloneMultipleRepos.py -a gitlab -t myAccessToken -d C:\myrepos --repos_list=repo1,repo2,repo3 
+3. CloneMultipleRepos.py -a http://gitlab -d C:\myrepos --repos_list=repo1,repo2,repo3 
+4. CloneMultipleRepos.py -a gitlab:80 -t myAccessToken -d C:\myrepos --repos_list=repo1,repo2,repo3 --silent 
+5. CloneMultipleRepos.py -a gitlab -t myAccessToken -d C:\myrepos --repos_list=repo1,repo2,repo3 --silent 
